@@ -1,0 +1,932 @@
+2021-10-28 20:08:37.844  INFO 27968 --- [restartedMain] c.edutecno.M5SistemaNoticiasApplication  : Starting M5SistemaNoticiasApplication using Java 16.0.2 on LAPTOP-D6Q9IDB6 with PID 27968 (C:\Users\adria\Edutecno Capacitacion\0004 - Full Stack Java - Vespertino - eclipse-workspace cloud -\M5-Sistema-noticias\target\classes started by adrian in C:\Users\adria\Edutecno Capacitacion\0004 - Full Stack Java - Vespertino - eclipse-workspace cloud -\M5-Sistema-noticias)
+2021-10-28 20:08:37.844  INFO 27968 --- [restartedMain] c.edutecno.M5SistemaNoticiasApplication  : No active profile set, falling back to default profiles: default
+2021-10-28 20:08:37.962  INFO 27968 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2021-10-28 20:08:37.969  INFO 27968 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-28 20:08:37.969  INFO 27968 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-10-28 20:08:37.984  INFO 27968 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-28 20:08:37.984  INFO 27968 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 137 ms
+2021-10-28 20:08:38.012 DEBUG 27968 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-10-28 20:08:38.016 DEBUG 27968 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 3 mappings in 'requestMappingHandlerMapping'
+2021-10-28 20:08:38.019  INFO 27968 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-10-28 20:08:38.026 DEBUG 27968 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2021-10-28 20:08:38.029 DEBUG 27968 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-10-28 20:08:38.040  INFO 27968 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-10-28 20:08:38.046  INFO 27968 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2021-10-28 20:08:38.048  INFO 27968 --- [restartedMain] c.edutecno.M5SistemaNoticiasApplication  : Started M5SistemaNoticiasApplication in 0.236 seconds (JVM running for 4307.634)
+2021-10-28 20:08:38.049  INFO 27968 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-10-28 20:08:50.756  INFO 27968 --- [restartedMain] c.edutecno.M5SistemaNoticiasApplication  : Starting M5SistemaNoticiasApplication using Java 16.0.2 on LAPTOP-D6Q9IDB6 with PID 27968 (C:\Users\adria\Edutecno Capacitacion\0004 - Full Stack Java - Vespertino - eclipse-workspace cloud -\M5-Sistema-noticias\target\classes started by adrian in C:\Users\adria\Edutecno Capacitacion\0004 - Full Stack Java - Vespertino - eclipse-workspace cloud -\M5-Sistema-noticias)
+2021-10-28 20:08:50.757  INFO 27968 --- [restartedMain] c.edutecno.M5SistemaNoticiasApplication  : No active profile set, falling back to default profiles: default
+2021-10-28 20:08:50.857  INFO 27968 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2021-10-28 20:08:50.858  INFO 27968 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-28 20:08:50.859  INFO 27968 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-10-28 20:08:50.872  INFO 27968 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-28 20:08:50.873  INFO 27968 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 114 ms
+2021-10-28 20:08:50.893 DEBUG 27968 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-10-28 20:08:50.897 DEBUG 27968 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 3 mappings in 'requestMappingHandlerMapping'
+2021-10-28 20:08:50.899  INFO 27968 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-10-28 20:08:50.903 DEBUG 27968 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2021-10-28 20:08:50.906 DEBUG 27968 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-10-28 20:08:50.918  INFO 27968 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-10-28 20:08:50.923  INFO 27968 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2021-10-28 20:08:50.926  INFO 27968 --- [restartedMain] c.edutecno.M5SistemaNoticiasApplication  : Started M5SistemaNoticiasApplication in 0.19 seconds (JVM running for 4320.511)
+2021-10-28 20:08:50.926  INFO 27968 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-10-28 20:11:35.722  INFO 27968 --- [restartedMain] c.edutecno.M5SistemaNoticiasApplication  : Starting M5SistemaNoticiasApplication using Java 16.0.2 on LAPTOP-D6Q9IDB6 with PID 27968 (C:\Users\adria\Edutecno Capacitacion\0004 - Full Stack Java - Vespertino - eclipse-workspace cloud -\M5-Sistema-noticias\target\classes started by adrian in C:\Users\adria\Edutecno Capacitacion\0004 - Full Stack Java - Vespertino - eclipse-workspace cloud -\M5-Sistema-noticias)
+2021-10-28 20:11:35.723  INFO 27968 --- [restartedMain] c.edutecno.M5SistemaNoticiasApplication  : No active profile set, falling back to default profiles: default
+2021-10-28 20:11:35.859  INFO 27968 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2021-10-28 20:11:35.860  INFO 27968 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-28 20:11:35.860  INFO 27968 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-10-28 20:11:35.875  INFO 27968 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-28 20:11:35.876  INFO 27968 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 152 ms
+2021-10-28 20:11:35.897 DEBUG 27968 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-10-28 20:11:35.902 DEBUG 27968 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 3 mappings in 'requestMappingHandlerMapping'
+2021-10-28 20:11:35.906  INFO 27968 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-10-28 20:11:35.911 DEBUG 27968 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2021-10-28 20:11:35.913 DEBUG 27968 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-10-28 20:11:35.923  INFO 27968 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-10-28 20:11:35.941  INFO 27968 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2021-10-28 20:11:35.943  INFO 27968 --- [restartedMain] c.edutecno.M5SistemaNoticiasApplication  : Started M5SistemaNoticiasApplication in 0.246 seconds (JVM running for 4485.529)
+2021-10-28 20:11:35.945  INFO 27968 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-10-28 20:22:20.340  INFO 27968 --- [restartedMain] c.edutecno.M5SistemaNoticiasApplication  : Starting M5SistemaNoticiasApplication using Java 16.0.2 on LAPTOP-D6Q9IDB6 with PID 27968 (C:\Users\adria\Edutecno Capacitacion\0004 - Full Stack Java - Vespertino - eclipse-workspace cloud -\M5-Sistema-noticias\target\classes started by adrian in C:\Users\adria\Edutecno Capacitacion\0004 - Full Stack Java - Vespertino - eclipse-workspace cloud -\M5-Sistema-noticias)
+2021-10-28 20:22:20.341  INFO 27968 --- [restartedMain] c.edutecno.M5SistemaNoticiasApplication  : No active profile set, falling back to default profiles: default
+2021-10-28 20:22:20.469  INFO 27968 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2021-10-28 20:22:20.470  INFO 27968 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-28 20:22:20.470  INFO 27968 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-10-28 20:22:20.485  INFO 27968 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-28 20:22:20.485  INFO 27968 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 143 ms
+2021-10-28 20:22:20.508 DEBUG 27968 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-10-28 20:22:20.511 DEBUG 27968 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 3 mappings in 'requestMappingHandlerMapping'
+2021-10-28 20:22:20.513  INFO 27968 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-10-28 20:22:20.518 DEBUG 27968 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2021-10-28 20:22:20.520 DEBUG 27968 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-10-28 20:22:20.530  INFO 27968 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-10-28 20:22:20.536  INFO 27968 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2021-10-28 20:22:20.539  INFO 27968 --- [restartedMain] c.edutecno.M5SistemaNoticiasApplication  : Started M5SistemaNoticiasApplication in 0.222 seconds (JVM running for 5130.124)
+2021-10-28 20:22:20.539  INFO 27968 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-10-28 20:22:44.397  INFO 27968 --- [restartedMain] c.edutecno.M5SistemaNoticiasApplication  : Starting M5SistemaNoticiasApplication using Java 16.0.2 on LAPTOP-D6Q9IDB6 with PID 27968 (C:\Users\adria\Edutecno Capacitacion\0004 - Full Stack Java - Vespertino - eclipse-workspace cloud -\M5-Sistema-noticias\target\classes started by adrian in C:\Users\adria\Edutecno Capacitacion\0004 - Full Stack Java - Vespertino - eclipse-workspace cloud -\M5-Sistema-noticias)
+2021-10-28 20:22:44.398  INFO 27968 --- [restartedMain] c.edutecno.M5SistemaNoticiasApplication  : No active profile set, falling back to default profiles: default
+2021-10-28 20:22:44.500  INFO 27968 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2021-10-28 20:22:44.501  INFO 27968 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-28 20:22:44.501  INFO 27968 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-10-28 20:22:44.514  INFO 27968 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-28 20:22:44.514  INFO 27968 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 114 ms
+2021-10-28 20:22:44.533 DEBUG 27968 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-10-28 20:22:44.536 DEBUG 27968 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 3 mappings in 'requestMappingHandlerMapping'
+2021-10-28 20:22:44.538  INFO 27968 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-10-28 20:22:44.542 DEBUG 27968 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2021-10-28 20:22:44.544 DEBUG 27968 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-10-28 20:22:44.555  INFO 27968 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-10-28 20:22:44.561  INFO 27968 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2021-10-28 20:22:44.564  INFO 27968 --- [restartedMain] c.edutecno.M5SistemaNoticiasApplication  : Started M5SistemaNoticiasApplication in 0.186 seconds (JVM running for 5154.149)
+2021-10-28 20:22:44.565  INFO 27968 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-10-28 20:24:38.972  INFO 27968 --- [restartedMain] c.edutecno.M5SistemaNoticiasApplication  : Starting M5SistemaNoticiasApplication using Java 16.0.2 on LAPTOP-D6Q9IDB6 with PID 27968 (C:\Users\adria\Edutecno Capacitacion\0004 - Full Stack Java - Vespertino - eclipse-workspace cloud -\M5-Sistema-noticias\target\classes started by adrian in C:\Users\adria\Edutecno Capacitacion\0004 - Full Stack Java - Vespertino - eclipse-workspace cloud -\M5-Sistema-noticias)
+2021-10-28 20:24:38.973  INFO 27968 --- [restartedMain] c.edutecno.M5SistemaNoticiasApplication  : No active profile set, falling back to default profiles: default
+2021-10-28 20:24:39.096  INFO 27968 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2021-10-28 20:24:39.097  INFO 27968 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-28 20:24:39.097  INFO 27968 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-10-28 20:24:39.117  INFO 27968 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-28 20:24:39.117  INFO 27968 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 143 ms
+2021-10-28 20:24:39.150 DEBUG 27968 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-10-28 20:24:39.154 DEBUG 27968 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 3 mappings in 'requestMappingHandlerMapping'
+2021-10-28 20:24:39.158  INFO 27968 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-10-28 20:24:39.163 DEBUG 27968 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2021-10-28 20:24:39.166 DEBUG 27968 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-10-28 20:24:39.177  INFO 27968 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-10-28 20:24:39.183  INFO 27968 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2021-10-28 20:24:39.186  INFO 27968 --- [restartedMain] c.edutecno.M5SistemaNoticiasApplication  : Started M5SistemaNoticiasApplication in 0.234 seconds (JVM running for 5268.771)
+2021-10-28 20:24:39.187  INFO 27968 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-10-28 20:25:07.131  INFO 27968 --- [restartedMain] c.edutecno.M5SistemaNoticiasApplication  : Starting M5SistemaNoticiasApplication using Java 16.0.2 on LAPTOP-D6Q9IDB6 with PID 27968 (C:\Users\adria\Edutecno Capacitacion\0004 - Full Stack Java - Vespertino - eclipse-workspace cloud -\M5-Sistema-noticias\target\classes started by adrian in C:\Users\adria\Edutecno Capacitacion\0004 - Full Stack Java - Vespertino - eclipse-workspace cloud -\M5-Sistema-noticias)
+2021-10-28 20:25:07.132  INFO 27968 --- [restartedMain] c.edutecno.M5SistemaNoticiasApplication  : No active profile set, falling back to default profiles: default
+2021-10-28 20:25:07.246  INFO 27968 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2021-10-28 20:25:07.247  INFO 27968 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-28 20:25:07.247  INFO 27968 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-10-28 20:25:07.262  INFO 27968 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-28 20:25:07.262  INFO 27968 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 129 ms
+2021-10-28 20:25:07.280 DEBUG 27968 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-10-28 20:25:07.283 DEBUG 27968 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 3 mappings in 'requestMappingHandlerMapping'
+2021-10-28 20:25:07.286  INFO 27968 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-10-28 20:25:07.290 DEBUG 27968 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2021-10-28 20:25:07.292 DEBUG 27968 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-10-28 20:25:07.301  INFO 27968 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-10-28 20:25:07.307  INFO 27968 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2021-10-28 20:25:07.310  INFO 27968 --- [restartedMain] c.edutecno.M5SistemaNoticiasApplication  : Started M5SistemaNoticiasApplication in 0.198 seconds (JVM running for 5296.895)
+2021-10-28 20:25:07.311  INFO 27968 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-10-28 20:25:32.206  INFO 27968 --- [restartedMain] c.edutecno.M5SistemaNoticiasApplication  : Starting M5SistemaNoticiasApplication using Java 16.0.2 on LAPTOP-D6Q9IDB6 with PID 27968 (C:\Users\adria\Edutecno Capacitacion\0004 - Full Stack Java - Vespertino - eclipse-workspace cloud -\M5-Sistema-noticias\target\classes started by adrian in C:\Users\adria\Edutecno Capacitacion\0004 - Full Stack Java - Vespertino - eclipse-workspace cloud -\M5-Sistema-noticias)
+2021-10-28 20:25:32.206  INFO 27968 --- [restartedMain] c.edutecno.M5SistemaNoticiasApplication  : No active profile set, falling back to default profiles: default
+2021-10-28 20:25:32.322  INFO 27968 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2021-10-28 20:25:32.323  INFO 27968 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-28 20:25:32.323  INFO 27968 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-10-28 20:25:32.348  INFO 27968 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-28 20:25:32.348  INFO 27968 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 141 ms
+2021-10-28 20:25:32.372 DEBUG 27968 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-10-28 20:25:32.374 DEBUG 27968 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 3 mappings in 'requestMappingHandlerMapping'
+2021-10-28 20:25:32.377  INFO 27968 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-10-28 20:25:32.381 DEBUG 27968 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2021-10-28 20:25:32.384 DEBUG 27968 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-10-28 20:25:32.394  INFO 27968 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-10-28 20:25:32.400  INFO 27968 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2021-10-28 20:25:32.404  INFO 27968 --- [restartedMain] c.edutecno.M5SistemaNoticiasApplication  : Started M5SistemaNoticiasApplication in 0.221 seconds (JVM running for 5321.99)
+2021-10-28 20:25:32.406  INFO 27968 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-10-28 20:26:42.082  INFO 27968 --- [restartedMain] c.edutecno.M5SistemaNoticiasApplication  : Starting M5SistemaNoticiasApplication using Java 16.0.2 on LAPTOP-D6Q9IDB6 with PID 27968 (C:\Users\adria\Edutecno Capacitacion\0004 - Full Stack Java - Vespertino - eclipse-workspace cloud -\M5-Sistema-noticias\target\classes started by adrian in C:\Users\adria\Edutecno Capacitacion\0004 - Full Stack Java - Vespertino - eclipse-workspace cloud -\M5-Sistema-noticias)
+2021-10-28 20:26:42.082  INFO 27968 --- [restartedMain] c.edutecno.M5SistemaNoticiasApplication  : No active profile set, falling back to default profiles: default
+2021-10-28 20:26:42.195  INFO 27968 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2021-10-28 20:26:42.195  INFO 27968 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-28 20:26:42.196  INFO 27968 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-10-28 20:26:42.221  INFO 27968 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-28 20:26:42.221  INFO 27968 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 137 ms
+2021-10-28 20:26:42.242 DEBUG 27968 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-10-28 20:26:42.244 DEBUG 27968 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 3 mappings in 'requestMappingHandlerMapping'
+2021-10-28 20:26:42.246  INFO 27968 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-10-28 20:26:42.250 DEBUG 27968 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2021-10-28 20:26:42.252 DEBUG 27968 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-10-28 20:26:42.261  INFO 27968 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-10-28 20:26:42.267  INFO 27968 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2021-10-28 20:26:42.269  INFO 27968 --- [restartedMain] c.edutecno.M5SistemaNoticiasApplication  : Started M5SistemaNoticiasApplication in 0.209 seconds (JVM running for 5391.854)
+2021-10-28 20:26:42.270  INFO 27968 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-10-28 20:26:59.048  INFO 27968 --- [restartedMain] c.edutecno.M5SistemaNoticiasApplication  : Starting M5SistemaNoticiasApplication using Java 16.0.2 on LAPTOP-D6Q9IDB6 with PID 27968 (C:\Users\adria\Edutecno Capacitacion\0004 - Full Stack Java - Vespertino - eclipse-workspace cloud -\M5-Sistema-noticias\target\classes started by adrian in C:\Users\adria\Edutecno Capacitacion\0004 - Full Stack Java - Vespertino - eclipse-workspace cloud -\M5-Sistema-noticias)
+2021-10-28 20:26:59.048  INFO 27968 --- [restartedMain] c.edutecno.M5SistemaNoticiasApplication  : No active profile set, falling back to default profiles: default
+2021-10-28 20:26:59.154  INFO 27968 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2021-10-28 20:26:59.155  INFO 27968 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-28 20:26:59.155  INFO 27968 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-10-28 20:26:59.169  INFO 27968 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-28 20:26:59.169  INFO 27968 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 119 ms
+2021-10-28 20:26:59.185 DEBUG 27968 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-10-28 20:26:59.188 DEBUG 27968 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 3 mappings in 'requestMappingHandlerMapping'
+2021-10-28 20:26:59.191  INFO 27968 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-10-28 20:26:59.194 DEBUG 27968 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2021-10-28 20:26:59.196 DEBUG 27968 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-10-28 20:26:59.204  INFO 27968 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-10-28 20:26:59.212  INFO 27968 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2021-10-28 20:26:59.214  INFO 27968 --- [restartedMain] c.edutecno.M5SistemaNoticiasApplication  : Started M5SistemaNoticiasApplication in 0.185 seconds (JVM running for 5408.8)
+2021-10-28 20:26:59.215  INFO 27968 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-10-28 20:30:54.728  INFO 27968 --- [restartedMain] c.edutecno.M5SistemaNoticiasApplication  : Starting M5SistemaNoticiasApplication using Java 16.0.2 on LAPTOP-D6Q9IDB6 with PID 27968 (C:\Users\adria\Edutecno Capacitacion\0004 - Full Stack Java - Vespertino - eclipse-workspace cloud -\M5-Sistema-noticias\target\classes started by adrian in C:\Users\adria\Edutecno Capacitacion\0004 - Full Stack Java - Vespertino - eclipse-workspace cloud -\M5-Sistema-noticias)
+2021-10-28 20:30:54.729  INFO 27968 --- [restartedMain] c.edutecno.M5SistemaNoticiasApplication  : No active profile set, falling back to default profiles: default
+2021-10-28 20:30:54.853  INFO 27968 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2021-10-28 20:30:54.853  INFO 27968 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-28 20:30:54.853  INFO 27968 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-10-28 20:30:54.882  INFO 27968 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-28 20:30:54.882  INFO 27968 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 152 ms
+2021-10-28 20:30:54.901 DEBUG 27968 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-10-28 20:30:54.904  WARN 27968 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'noticiasController' method 
+cl.edutecno.controller.NoticiasController#Main(Model)
+to {GET [/]}: There is already 'noticiasController' bean method
+cl.edutecno.controller.NoticiasController#Main() mapped.
+2021-10-28 20:30:54.904  INFO 27968 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2021-10-28 20:30:54.910  INFO 27968 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-10-28 20:30:54.928 ERROR 27968 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'noticiasController' method 
+cl.edutecno.controller.NoticiasController#Main(Model)
+to {GET [/]}: There is already 'noticiasController' bean method
+cl.edutecno.controller.NoticiasController#Main() mapped.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804) ~[spring-beans-5.3.12.jar:5.3.12]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620) ~[spring-beans-5.3.12.jar:5.3.12]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.12.jar:5.3.12]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.12.jar:5.3.12]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.12.jar:5.3.12]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.12.jar:5.3.12]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.12.jar:5.3.12]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944) ~[spring-beans-5.3.12.jar:5.3.12]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.12.jar:5.3.12]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.12.jar:5.3.12]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145) ~[spring-boot-2.5.6.jar:2.5.6]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-2.5.6.jar:2.5.6]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434) ~[spring-boot-2.5.6.jar:2.5.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:338) ~[spring-boot-2.5.6.jar:2.5.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343) ~[spring-boot-2.5.6.jar:2.5.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1332) ~[spring-boot-2.5.6.jar:2.5.6]
+	at cl.edutecno.M5SistemaNoticiasApplication.main(M5SistemaNoticiasApplication.java:10) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.5.6.jar:2.5.6]
+Caused by: java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'noticiasController' method 
+cl.edutecno.controller.NoticiasController#Main(Model)
+to {GET [/]}: There is already 'noticiasController' bean method
+cl.edutecno.controller.NoticiasController#Main() mapped.
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.validateMethodMapping(AbstractHandlerMethodMapping.java:669) ~[spring-webmvc-5.3.12.jar:5.3.12]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:635) ~[spring-webmvc-5.3.12.jar:5.3.12]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:332) ~[spring-webmvc-5.3.12.jar:5.3.12]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod(RequestMappingHandlerMapping.java:395) ~[spring-webmvc-5.3.12.jar:5.3.12]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod(RequestMappingHandlerMapping.java:76) ~[spring-webmvc-5.3.12.jar:5.3.12]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lambda$detectHandlerMethods$2(AbstractHandlerMethodMapping.java:299) ~[spring-webmvc-5.3.12.jar:5.3.12]
+	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:723) ~[na:na]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.detectHandlerMethods(AbstractHandlerMethodMapping.java:297) ~[spring-webmvc-5.3.12.jar:5.3.12]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.processCandidateBean(AbstractHandlerMethodMapping.java:266) ~[spring-webmvc-5.3.12.jar:5.3.12]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.initHandlerMethods(AbstractHandlerMethodMapping.java:225) ~[spring-webmvc-5.3.12.jar:5.3.12]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.afterPropertiesSet(AbstractHandlerMethodMapping.java:213) ~[spring-webmvc-5.3.12.jar:5.3.12]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.afterPropertiesSet(RequestMappingHandlerMapping.java:206) ~[spring-webmvc-5.3.12.jar:5.3.12]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863) ~[spring-beans-5.3.12.jar:5.3.12]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800) ~[spring-beans-5.3.12.jar:5.3.12]
+	... 21 common frames omitted
+
+2021-10-28 20:31:08.576  INFO 27968 --- [restartedMain] c.edutecno.M5SistemaNoticiasApplication  : Starting M5SistemaNoticiasApplication using Java 16.0.2 on LAPTOP-D6Q9IDB6 with PID 27968 (C:\Users\adria\Edutecno Capacitacion\0004 - Full Stack Java - Vespertino - eclipse-workspace cloud -\M5-Sistema-noticias\target\classes started by adrian in C:\Users\adria\Edutecno Capacitacion\0004 - Full Stack Java - Vespertino - eclipse-workspace cloud -\M5-Sistema-noticias)
+2021-10-28 20:31:08.576  INFO 27968 --- [restartedMain] c.edutecno.M5SistemaNoticiasApplication  : No active profile set, falling back to default profiles: default
+2021-10-28 20:31:08.681  INFO 27968 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2021-10-28 20:31:08.682  INFO 27968 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-28 20:31:08.682  INFO 27968 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-10-28 20:31:08.695  INFO 27968 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2021-10-28 20:31:08.696  INFO 27968 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 119 ms
+2021-10-28 20:31:08.714 DEBUG 27968 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-10-28 20:31:08.716  WARN 27968 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'noticiasController' method 
+cl.edutecno.controller.NoticiasController#Main(Model)
+to {GET [/]}: There is already 'noticiasController' bean method
+cl.edutecno.controller.NoticiasController#Main() mapped.
+2021-10-28 20:31:08.717  INFO 27968 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2021-10-28 20:31:08.721  INFO 27968 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-10-28 20:31:08.723 ERROR 27968 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'noticiasController' method 
+cl.edutecno.controller.NoticiasController#Main(Model)
+to {GET [/]}: There is already 'noticiasController' bean method
+cl.edutecno.controller.NoticiasController#Main() mapped.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804) ~[spring-beans-5.3.12.jar:5.3.12]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620) ~[spring-beans-5.3.12.jar:5.3.12]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.12.jar:5.3.12]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.12.jar:5.3.12]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.12.jar:5.3.12]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.12.jar:5.3.12]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.12.jar:5.3.12]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944) ~[spring-beans-5.3.12.jar:5.3.12]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.12.jar:5.3.12]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.12.jar:5.3.12]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145) ~[spring-boot-2.5.6.jar:2.5.6]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-2.5.6.jar:2.5.6]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434) ~[spring-boot-2.5.6.jar:2.5.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:338) ~[spring-boot-2.5.6.jar:2.5.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343) ~[spring-boot-2.5.6.jar:2.5.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1332) ~[spring-boot-2.5.6.jar:2.5.6]
+	at cl.edutecno.M5SistemaNoticiasApplication.main(M5SistemaNoticiasApplication.java:10) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.5.6.jar:2.5.6]
+Caused by: java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'noticiasController' method 
+cl.edutecno.controller.NoticiasController#Main(Model)
+to {GET [/]}: There is already 'noticiasController' bean method
+cl.edutecno.controller.NoticiasController#Main() mapped.
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.validateMethodMapping(AbstractHandlerMethodMapping.java:669) ~[spring-webmvc-5.3.12.jar:5.3.12]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:635) ~[spring-webmvc-5.3.12.jar:5.3.12]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:332) ~[spring-webmvc-5.3.12.jar:5.3.12]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod(RequestMappingHandlerMapping.java:395) ~[spring-webmvc-5.3.12.jar:5.3.12]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod(RequestMappingHandlerMapping.java:76) ~[spring-webmvc-5.3.12.jar:5.3.12]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lambda$detectHandlerMethods$2(AbstractHandlerMethodMapping.java:299) ~[spring-webmvc-5.3.12.jar:5.3.12]
+	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:723) ~[na:na]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.detectHandlerMethods(AbstractHandlerMethodMapping.java:297) ~[spring-webmvc-5.3.12.jar:5.3.12]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.processCandidateBean(AbstractHandlerMethodMapping.java:266) ~[spring-webmvc-5.3.12.jar:5.3.12]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.initHandlerMethods(AbstractHandlerMethodMapping.java:225) ~[spring-webmvc-5.3.12.jar:5.3.12]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.afterPropertiesSet(AbstractHandlerMethodMapping.java:213) ~[spring-webmvc-5.3.12.jar:5.3.12]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.afterPropertiesSet(RequestMappingHandlerMapping.java:206) ~[spring-webmvc-5.3.12.jar:5.3.12]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863) ~[spring-beans-5.3.12.jar:5.3.12]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800) ~[spring-beans-5.3.12.jar:5.3.12]
+	... 21 common frames omitted
+
+2021-10-28 20:32:54.891  INFO 27968 --- [restartedMain] c.edutecno.M5SistemaNoticiasApplication  : Starting M5SistemaNoticiasApplication using Java 16.0.2 on LAPTOP-D6Q9IDB6 with PID 27968 (C:\Users\adria\Edutecno Capacitacion\0004 - Full Stack Java - Vespertino - eclipse-workspace cloud -\M5-Sistema-noticias\target\classes started by adrian in C:\Users\adria\Edutecno Capacitacion\0004 - Full Stack Java - Vespertino - eclipse-workspace cloud -\M5-Sistema-noticias)
+2021-10-28 20:32:54.891  INFO 27968 --- [restartedMain] c.edutecno.M5SistemaNoticiasApplication  : No active profile set, falling back to default profiles: default
+2021-10-28 20:32:55.013  INFO 27968 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2021-10-28 20:32:55.013  INFO 27968 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-28 20:32:55.014  INFO 27968 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-10-28 20:32:55.038  INFO 27968 --- [restartedMain] o.a.c.c.C.[Tomcat-2].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2021-10-28 20:32:55.038  INFO 27968 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 146 ms
+2021-10-28 20:32:55.056 DEBUG 27968 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-10-28 20:32:55.058  WARN 27968 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'noticiasController' method 
+cl.edutecno.controller.NoticiasController#Main(Model)
+to {GET [/]}: There is already 'noticiasController' bean method
+cl.edutecno.controller.NoticiasController#Main() mapped.
+2021-10-28 20:32:55.058  INFO 27968 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2021-10-28 20:32:55.062  INFO 27968 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-10-28 20:32:55.065 ERROR 27968 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'noticiasController' method 
+cl.edutecno.controller.NoticiasController#Main(Model)
+to {GET [/]}: There is already 'noticiasController' bean method
+cl.edutecno.controller.NoticiasController#Main() mapped.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804) ~[spring-beans-5.3.12.jar:5.3.12]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620) ~[spring-beans-5.3.12.jar:5.3.12]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.12.jar:5.3.12]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.12.jar:5.3.12]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.12.jar:5.3.12]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.12.jar:5.3.12]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.12.jar:5.3.12]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944) ~[spring-beans-5.3.12.jar:5.3.12]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.12.jar:5.3.12]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.12.jar:5.3.12]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145) ~[spring-boot-2.5.6.jar:2.5.6]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-2.5.6.jar:2.5.6]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434) ~[spring-boot-2.5.6.jar:2.5.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:338) ~[spring-boot-2.5.6.jar:2.5.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343) ~[spring-boot-2.5.6.jar:2.5.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1332) ~[spring-boot-2.5.6.jar:2.5.6]
+	at cl.edutecno.M5SistemaNoticiasApplication.main(M5SistemaNoticiasApplication.java:10) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.5.6.jar:2.5.6]
+Caused by: java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'noticiasController' method 
+cl.edutecno.controller.NoticiasController#Main(Model)
+to {GET [/]}: There is already 'noticiasController' bean method
+cl.edutecno.controller.NoticiasController#Main() mapped.
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.validateMethodMapping(AbstractHandlerMethodMapping.java:669) ~[spring-webmvc-5.3.12.jar:5.3.12]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:635) ~[spring-webmvc-5.3.12.jar:5.3.12]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:332) ~[spring-webmvc-5.3.12.jar:5.3.12]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod(RequestMappingHandlerMapping.java:395) ~[spring-webmvc-5.3.12.jar:5.3.12]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod(RequestMappingHandlerMapping.java:76) ~[spring-webmvc-5.3.12.jar:5.3.12]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lambda$detectHandlerMethods$2(AbstractHandlerMethodMapping.java:299) ~[spring-webmvc-5.3.12.jar:5.3.12]
+	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:723) ~[na:na]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.detectHandlerMethods(AbstractHandlerMethodMapping.java:297) ~[spring-webmvc-5.3.12.jar:5.3.12]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.processCandidateBean(AbstractHandlerMethodMapping.java:266) ~[spring-webmvc-5.3.12.jar:5.3.12]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.initHandlerMethods(AbstractHandlerMethodMapping.java:225) ~[spring-webmvc-5.3.12.jar:5.3.12]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.afterPropertiesSet(AbstractHandlerMethodMapping.java:213) ~[spring-webmvc-5.3.12.jar:5.3.12]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.afterPropertiesSet(RequestMappingHandlerMapping.java:206) ~[spring-webmvc-5.3.12.jar:5.3.12]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863) ~[spring-beans-5.3.12.jar:5.3.12]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800) ~[spring-beans-5.3.12.jar:5.3.12]
+	... 21 common frames omitted
+
+2021-10-28 20:36:41.604  INFO 27968 --- [restartedMain] c.edutecno.M5SistemaNoticiasApplication  : Starting M5SistemaNoticiasApplication using Java 16.0.2 on LAPTOP-D6Q9IDB6 with PID 27968 (C:\Users\adria\Edutecno Capacitacion\0004 - Full Stack Java - Vespertino - eclipse-workspace cloud -\M5-Sistema-noticias\target\classes started by adrian in C:\Users\adria\Edutecno Capacitacion\0004 - Full Stack Java - Vespertino - eclipse-workspace cloud -\M5-Sistema-noticias)
+2021-10-28 20:36:41.604  INFO 27968 --- [restartedMain] c.edutecno.M5SistemaNoticiasApplication  : No active profile set, falling back to default profiles: default
+2021-10-28 20:36:41.710  INFO 27968 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2021-10-28 20:36:41.711  INFO 27968 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-28 20:36:41.711  INFO 27968 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-10-28 20:36:41.725  INFO 27968 --- [restartedMain] o.a.c.c.C.[Tomcat-3].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2021-10-28 20:36:41.725  INFO 27968 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 119 ms
+2021-10-28 20:36:41.748 DEBUG 27968 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-10-28 20:36:41.750  WARN 27968 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'noticiasController' method 
+cl.edutecno.controller.NoticiasController#Main(Model)
+to {GET [/]}: There is already 'noticiasController' bean method
+cl.edutecno.controller.NoticiasController#Main() mapped.
+2021-10-28 20:36:41.750  INFO 27968 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2021-10-28 20:36:41.753  INFO 27968 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-10-28 20:36:41.756 ERROR 27968 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'noticiasController' method 
+cl.edutecno.controller.NoticiasController#Main(Model)
+to {GET [/]}: There is already 'noticiasController' bean method
+cl.edutecno.controller.NoticiasController#Main() mapped.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804) ~[spring-beans-5.3.12.jar:5.3.12]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620) ~[spring-beans-5.3.12.jar:5.3.12]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.12.jar:5.3.12]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.12.jar:5.3.12]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.12.jar:5.3.12]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.12.jar:5.3.12]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.12.jar:5.3.12]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944) ~[spring-beans-5.3.12.jar:5.3.12]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.12.jar:5.3.12]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.12.jar:5.3.12]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145) ~[spring-boot-2.5.6.jar:2.5.6]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-2.5.6.jar:2.5.6]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434) ~[spring-boot-2.5.6.jar:2.5.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:338) ~[spring-boot-2.5.6.jar:2.5.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343) ~[spring-boot-2.5.6.jar:2.5.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1332) ~[spring-boot-2.5.6.jar:2.5.6]
+	at cl.edutecno.M5SistemaNoticiasApplication.main(M5SistemaNoticiasApplication.java:10) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.5.6.jar:2.5.6]
+Caused by: java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'noticiasController' method 
+cl.edutecno.controller.NoticiasController#Main(Model)
+to {GET [/]}: There is already 'noticiasController' bean method
+cl.edutecno.controller.NoticiasController#Main() mapped.
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.validateMethodMapping(AbstractHandlerMethodMapping.java:669) ~[spring-webmvc-5.3.12.jar:5.3.12]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:635) ~[spring-webmvc-5.3.12.jar:5.3.12]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:332) ~[spring-webmvc-5.3.12.jar:5.3.12]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod(RequestMappingHandlerMapping.java:395) ~[spring-webmvc-5.3.12.jar:5.3.12]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod(RequestMappingHandlerMapping.java:76) ~[spring-webmvc-5.3.12.jar:5.3.12]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lambda$detectHandlerMethods$2(AbstractHandlerMethodMapping.java:299) ~[spring-webmvc-5.3.12.jar:5.3.12]
+	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:723) ~[na:na]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.detectHandlerMethods(AbstractHandlerMethodMapping.java:297) ~[spring-webmvc-5.3.12.jar:5.3.12]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.processCandidateBean(AbstractHandlerMethodMapping.java:266) ~[spring-webmvc-5.3.12.jar:5.3.12]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.initHandlerMethods(AbstractHandlerMethodMapping.java:225) ~[spring-webmvc-5.3.12.jar:5.3.12]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.afterPropertiesSet(AbstractHandlerMethodMapping.java:213) ~[spring-webmvc-5.3.12.jar:5.3.12]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.afterPropertiesSet(RequestMappingHandlerMapping.java:206) ~[spring-webmvc-5.3.12.jar:5.3.12]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863) ~[spring-beans-5.3.12.jar:5.3.12]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800) ~[spring-beans-5.3.12.jar:5.3.12]
+	... 21 common frames omitted
+
+2021-10-28 20:37:50.327  INFO 27968 --- [restartedMain] c.edutecno.M5SistemaNoticiasApplication  : Starting M5SistemaNoticiasApplication using Java 16.0.2 on LAPTOP-D6Q9IDB6 with PID 27968 (C:\Users\adria\Edutecno Capacitacion\0004 - Full Stack Java - Vespertino - eclipse-workspace cloud -\M5-Sistema-noticias\target\classes started by adrian in C:\Users\adria\Edutecno Capacitacion\0004 - Full Stack Java - Vespertino - eclipse-workspace cloud -\M5-Sistema-noticias)
+2021-10-28 20:37:50.327  INFO 27968 --- [restartedMain] c.edutecno.M5SistemaNoticiasApplication  : No active profile set, falling back to default profiles: default
+2021-10-28 20:37:50.455  INFO 27968 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2021-10-28 20:37:50.456  INFO 27968 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-28 20:37:50.456  INFO 27968 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-10-28 20:37:50.481  INFO 27968 --- [restartedMain] o.a.c.c.C.[Tomcat-4].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2021-10-28 20:37:50.481  INFO 27968 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 153 ms
+2021-10-28 20:37:50.508 DEBUG 27968 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-10-28 20:37:50.510  WARN 27968 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'noticiasController' method 
+cl.edutecno.controller.NoticiasController#Main(Model)
+to {GET [/]}: There is already 'noticiasController' bean method
+cl.edutecno.controller.NoticiasController#Main() mapped.
+2021-10-28 20:37:50.510  INFO 27968 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2021-10-28 20:37:50.514  INFO 27968 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-10-28 20:37:50.517 ERROR 27968 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'noticiasController' method 
+cl.edutecno.controller.NoticiasController#Main(Model)
+to {GET [/]}: There is already 'noticiasController' bean method
+cl.edutecno.controller.NoticiasController#Main() mapped.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804) ~[spring-beans-5.3.12.jar:5.3.12]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620) ~[spring-beans-5.3.12.jar:5.3.12]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.12.jar:5.3.12]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.12.jar:5.3.12]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.12.jar:5.3.12]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.12.jar:5.3.12]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.12.jar:5.3.12]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944) ~[spring-beans-5.3.12.jar:5.3.12]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.12.jar:5.3.12]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.12.jar:5.3.12]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145) ~[spring-boot-2.5.6.jar:2.5.6]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-2.5.6.jar:2.5.6]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434) ~[spring-boot-2.5.6.jar:2.5.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:338) ~[spring-boot-2.5.6.jar:2.5.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343) ~[spring-boot-2.5.6.jar:2.5.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1332) ~[spring-boot-2.5.6.jar:2.5.6]
+	at cl.edutecno.M5SistemaNoticiasApplication.main(M5SistemaNoticiasApplication.java:10) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.5.6.jar:2.5.6]
+Caused by: java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'noticiasController' method 
+cl.edutecno.controller.NoticiasController#Main(Model)
+to {GET [/]}: There is already 'noticiasController' bean method
+cl.edutecno.controller.NoticiasController#Main() mapped.
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.validateMethodMapping(AbstractHandlerMethodMapping.java:669) ~[spring-webmvc-5.3.12.jar:5.3.12]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:635) ~[spring-webmvc-5.3.12.jar:5.3.12]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:332) ~[spring-webmvc-5.3.12.jar:5.3.12]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod(RequestMappingHandlerMapping.java:395) ~[spring-webmvc-5.3.12.jar:5.3.12]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod(RequestMappingHandlerMapping.java:76) ~[spring-webmvc-5.3.12.jar:5.3.12]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lambda$detectHandlerMethods$2(AbstractHandlerMethodMapping.java:299) ~[spring-webmvc-5.3.12.jar:5.3.12]
+	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:723) ~[na:na]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.detectHandlerMethods(AbstractHandlerMethodMapping.java:297) ~[spring-webmvc-5.3.12.jar:5.3.12]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.processCandidateBean(AbstractHandlerMethodMapping.java:266) ~[spring-webmvc-5.3.12.jar:5.3.12]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.initHandlerMethods(AbstractHandlerMethodMapping.java:225) ~[spring-webmvc-5.3.12.jar:5.3.12]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.afterPropertiesSet(AbstractHandlerMethodMapping.java:213) ~[spring-webmvc-5.3.12.jar:5.3.12]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.afterPropertiesSet(RequestMappingHandlerMapping.java:206) ~[spring-webmvc-5.3.12.jar:5.3.12]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863) ~[spring-beans-5.3.12.jar:5.3.12]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800) ~[spring-beans-5.3.12.jar:5.3.12]
+	... 21 common frames omitted
+
+2021-10-28 20:39:05.191  INFO 27968 --- [restartedMain] c.edutecno.M5SistemaNoticiasApplication  : Starting M5SistemaNoticiasApplication using Java 16.0.2 on LAPTOP-D6Q9IDB6 with PID 27968 (C:\Users\adria\Edutecno Capacitacion\0004 - Full Stack Java - Vespertino - eclipse-workspace cloud -\M5-Sistema-noticias\target\classes started by adrian in C:\Users\adria\Edutecno Capacitacion\0004 - Full Stack Java - Vespertino - eclipse-workspace cloud -\M5-Sistema-noticias)
+2021-10-28 20:39:05.191  INFO 27968 --- [restartedMain] c.edutecno.M5SistemaNoticiasApplication  : No active profile set, falling back to default profiles: default
+2021-10-28 20:39:05.298  INFO 27968 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2021-10-28 20:39:05.299  INFO 27968 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-28 20:39:05.299  INFO 27968 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-10-28 20:39:05.312  INFO 27968 --- [restartedMain] o.a.c.c.C.[Tomcat-5].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2021-10-28 20:39:05.312  INFO 27968 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 119 ms
+2021-10-28 20:39:05.334 DEBUG 27968 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-10-28 20:39:05.335  WARN 27968 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'noticiasController' method 
+cl.edutecno.controller.NoticiasController#Main(Model)
+to {GET [/]}: There is already 'noticiasController' bean method
+cl.edutecno.controller.NoticiasController#Main() mapped.
+2021-10-28 20:39:05.336  INFO 27968 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2021-10-28 20:39:05.339  INFO 27968 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-10-28 20:39:05.342 ERROR 27968 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'noticiasController' method 
+cl.edutecno.controller.NoticiasController#Main(Model)
+to {GET [/]}: There is already 'noticiasController' bean method
+cl.edutecno.controller.NoticiasController#Main() mapped.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804) ~[spring-beans-5.3.12.jar:5.3.12]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620) ~[spring-beans-5.3.12.jar:5.3.12]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.12.jar:5.3.12]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.12.jar:5.3.12]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.12.jar:5.3.12]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.12.jar:5.3.12]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.12.jar:5.3.12]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944) ~[spring-beans-5.3.12.jar:5.3.12]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.12.jar:5.3.12]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.12.jar:5.3.12]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145) ~[spring-boot-2.5.6.jar:2.5.6]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-2.5.6.jar:2.5.6]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434) ~[spring-boot-2.5.6.jar:2.5.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:338) ~[spring-boot-2.5.6.jar:2.5.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343) ~[spring-boot-2.5.6.jar:2.5.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1332) ~[spring-boot-2.5.6.jar:2.5.6]
+	at cl.edutecno.M5SistemaNoticiasApplication.main(M5SistemaNoticiasApplication.java:10) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.5.6.jar:2.5.6]
+Caused by: java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'noticiasController' method 
+cl.edutecno.controller.NoticiasController#Main(Model)
+to {GET [/]}: There is already 'noticiasController' bean method
+cl.edutecno.controller.NoticiasController#Main() mapped.
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.validateMethodMapping(AbstractHandlerMethodMapping.java:669) ~[spring-webmvc-5.3.12.jar:5.3.12]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:635) ~[spring-webmvc-5.3.12.jar:5.3.12]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:332) ~[spring-webmvc-5.3.12.jar:5.3.12]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod(RequestMappingHandlerMapping.java:395) ~[spring-webmvc-5.3.12.jar:5.3.12]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod(RequestMappingHandlerMapping.java:76) ~[spring-webmvc-5.3.12.jar:5.3.12]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lambda$detectHandlerMethods$2(AbstractHandlerMethodMapping.java:299) ~[spring-webmvc-5.3.12.jar:5.3.12]
+	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:723) ~[na:na]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.detectHandlerMethods(AbstractHandlerMethodMapping.java:297) ~[spring-webmvc-5.3.12.jar:5.3.12]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.processCandidateBean(AbstractHandlerMethodMapping.java:266) ~[spring-webmvc-5.3.12.jar:5.3.12]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.initHandlerMethods(AbstractHandlerMethodMapping.java:225) ~[spring-webmvc-5.3.12.jar:5.3.12]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.afterPropertiesSet(AbstractHandlerMethodMapping.java:213) ~[spring-webmvc-5.3.12.jar:5.3.12]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.afterPropertiesSet(RequestMappingHandlerMapping.java:206) ~[spring-webmvc-5.3.12.jar:5.3.12]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863) ~[spring-beans-5.3.12.jar:5.3.12]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800) ~[spring-beans-5.3.12.jar:5.3.12]
+	... 21 common frames omitted
+
+2021-10-28 20:40:27.255  INFO 27968 --- [restartedMain] c.edutecno.M5SistemaNoticiasApplication  : Starting M5SistemaNoticiasApplication using Java 16.0.2 on LAPTOP-D6Q9IDB6 with PID 27968 (C:\Users\adria\Edutecno Capacitacion\0004 - Full Stack Java - Vespertino - eclipse-workspace cloud -\M5-Sistema-noticias\target\classes started by adrian in C:\Users\adria\Edutecno Capacitacion\0004 - Full Stack Java - Vespertino - eclipse-workspace cloud -\M5-Sistema-noticias)
+2021-10-28 20:40:27.255  INFO 27968 --- [restartedMain] c.edutecno.M5SistemaNoticiasApplication  : No active profile set, falling back to default profiles: default
+2021-10-28 20:40:27.363  INFO 27968 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2021-10-28 20:40:27.364  INFO 27968 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-28 20:40:27.364  INFO 27968 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-10-28 20:40:27.379  INFO 27968 --- [restartedMain] o.a.c.c.C.[Tomcat-6].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2021-10-28 20:40:27.379  INFO 27968 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 122 ms
+2021-10-28 20:40:27.403 DEBUG 27968 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-10-28 20:40:27.405  WARN 27968 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'noticiasController' method 
+cl.edutecno.controller.NoticiasController#Main(Model)
+to {GET [/]}: There is already 'noticiasController' bean method
+cl.edutecno.controller.NoticiasController#Main() mapped.
+2021-10-28 20:40:27.406  INFO 27968 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2021-10-28 20:40:27.409  INFO 27968 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-10-28 20:40:27.413 ERROR 27968 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'noticiasController' method 
+cl.edutecno.controller.NoticiasController#Main(Model)
+to {GET [/]}: There is already 'noticiasController' bean method
+cl.edutecno.controller.NoticiasController#Main() mapped.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804) ~[spring-beans-5.3.12.jar:5.3.12]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620) ~[spring-beans-5.3.12.jar:5.3.12]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.12.jar:5.3.12]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.12.jar:5.3.12]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.12.jar:5.3.12]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.12.jar:5.3.12]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.12.jar:5.3.12]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944) ~[spring-beans-5.3.12.jar:5.3.12]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.12.jar:5.3.12]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.12.jar:5.3.12]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145) ~[spring-boot-2.5.6.jar:2.5.6]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-2.5.6.jar:2.5.6]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434) ~[spring-boot-2.5.6.jar:2.5.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:338) ~[spring-boot-2.5.6.jar:2.5.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343) ~[spring-boot-2.5.6.jar:2.5.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1332) ~[spring-boot-2.5.6.jar:2.5.6]
+	at cl.edutecno.M5SistemaNoticiasApplication.main(M5SistemaNoticiasApplication.java:10) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.5.6.jar:2.5.6]
+Caused by: java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'noticiasController' method 
+cl.edutecno.controller.NoticiasController#Main(Model)
+to {GET [/]}: There is already 'noticiasController' bean method
+cl.edutecno.controller.NoticiasController#Main() mapped.
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.validateMethodMapping(AbstractHandlerMethodMapping.java:669) ~[spring-webmvc-5.3.12.jar:5.3.12]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:635) ~[spring-webmvc-5.3.12.jar:5.3.12]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:332) ~[spring-webmvc-5.3.12.jar:5.3.12]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod(RequestMappingHandlerMapping.java:395) ~[spring-webmvc-5.3.12.jar:5.3.12]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod(RequestMappingHandlerMapping.java:76) ~[spring-webmvc-5.3.12.jar:5.3.12]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lambda$detectHandlerMethods$2(AbstractHandlerMethodMapping.java:299) ~[spring-webmvc-5.3.12.jar:5.3.12]
+	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:723) ~[na:na]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.detectHandlerMethods(AbstractHandlerMethodMapping.java:297) ~[spring-webmvc-5.3.12.jar:5.3.12]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.processCandidateBean(AbstractHandlerMethodMapping.java:266) ~[spring-webmvc-5.3.12.jar:5.3.12]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.initHandlerMethods(AbstractHandlerMethodMapping.java:225) ~[spring-webmvc-5.3.12.jar:5.3.12]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.afterPropertiesSet(AbstractHandlerMethodMapping.java:213) ~[spring-webmvc-5.3.12.jar:5.3.12]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.afterPropertiesSet(RequestMappingHandlerMapping.java:206) ~[spring-webmvc-5.3.12.jar:5.3.12]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863) ~[spring-beans-5.3.12.jar:5.3.12]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800) ~[spring-beans-5.3.12.jar:5.3.12]
+	... 21 common frames omitted
+
+2021-10-28 20:40:37.984  INFO 27968 --- [restartedMain] c.edutecno.M5SistemaNoticiasApplication  : Starting M5SistemaNoticiasApplication using Java 16.0.2 on LAPTOP-D6Q9IDB6 with PID 27968 (C:\Users\adria\Edutecno Capacitacion\0004 - Full Stack Java - Vespertino - eclipse-workspace cloud -\M5-Sistema-noticias\target\classes started by adrian in C:\Users\adria\Edutecno Capacitacion\0004 - Full Stack Java - Vespertino - eclipse-workspace cloud -\M5-Sistema-noticias)
+2021-10-28 20:40:37.984  INFO 27968 --- [restartedMain] c.edutecno.M5SistemaNoticiasApplication  : No active profile set, falling back to default profiles: default
+2021-10-28 20:40:38.088  INFO 27968 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2021-10-28 20:40:38.088  INFO 27968 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-28 20:40:38.088  INFO 27968 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-10-28 20:40:38.111  INFO 27968 --- [restartedMain] o.a.c.c.C.[Tomcat-7].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2021-10-28 20:40:38.112  INFO 27968 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 126 ms
+2021-10-28 20:40:38.127 DEBUG 27968 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-10-28 20:40:38.129  WARN 27968 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'noticiasController' method 
+cl.edutecno.controller.NoticiasController#Main(Model)
+to {GET [/]}: There is already 'noticiasController' bean method
+cl.edutecno.controller.NoticiasController#Main() mapped.
+2021-10-28 20:40:38.129  INFO 27968 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2021-10-28 20:40:38.133  INFO 27968 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-10-28 20:40:38.138 ERROR 27968 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'noticiasController' method 
+cl.edutecno.controller.NoticiasController#Main(Model)
+to {GET [/]}: There is already 'noticiasController' bean method
+cl.edutecno.controller.NoticiasController#Main() mapped.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804) ~[spring-beans-5.3.12.jar:5.3.12]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620) ~[spring-beans-5.3.12.jar:5.3.12]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.12.jar:5.3.12]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.12.jar:5.3.12]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.12.jar:5.3.12]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.12.jar:5.3.12]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.12.jar:5.3.12]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944) ~[spring-beans-5.3.12.jar:5.3.12]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.12.jar:5.3.12]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.12.jar:5.3.12]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145) ~[spring-boot-2.5.6.jar:2.5.6]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-2.5.6.jar:2.5.6]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434) ~[spring-boot-2.5.6.jar:2.5.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:338) ~[spring-boot-2.5.6.jar:2.5.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343) ~[spring-boot-2.5.6.jar:2.5.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1332) ~[spring-boot-2.5.6.jar:2.5.6]
+	at cl.edutecno.M5SistemaNoticiasApplication.main(M5SistemaNoticiasApplication.java:10) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.5.6.jar:2.5.6]
+Caused by: java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'noticiasController' method 
+cl.edutecno.controller.NoticiasController#Main(Model)
+to {GET [/]}: There is already 'noticiasController' bean method
+cl.edutecno.controller.NoticiasController#Main() mapped.
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.validateMethodMapping(AbstractHandlerMethodMapping.java:669) ~[spring-webmvc-5.3.12.jar:5.3.12]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:635) ~[spring-webmvc-5.3.12.jar:5.3.12]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:332) ~[spring-webmvc-5.3.12.jar:5.3.12]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod(RequestMappingHandlerMapping.java:395) ~[spring-webmvc-5.3.12.jar:5.3.12]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod(RequestMappingHandlerMapping.java:76) ~[spring-webmvc-5.3.12.jar:5.3.12]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lambda$detectHandlerMethods$2(AbstractHandlerMethodMapping.java:299) ~[spring-webmvc-5.3.12.jar:5.3.12]
+	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:723) ~[na:na]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.detectHandlerMethods(AbstractHandlerMethodMapping.java:297) ~[spring-webmvc-5.3.12.jar:5.3.12]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.processCandidateBean(AbstractHandlerMethodMapping.java:266) ~[spring-webmvc-5.3.12.jar:5.3.12]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.initHandlerMethods(AbstractHandlerMethodMapping.java:225) ~[spring-webmvc-5.3.12.jar:5.3.12]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.afterPropertiesSet(AbstractHandlerMethodMapping.java:213) ~[spring-webmvc-5.3.12.jar:5.3.12]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.afterPropertiesSet(RequestMappingHandlerMapping.java:206) ~[spring-webmvc-5.3.12.jar:5.3.12]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863) ~[spring-beans-5.3.12.jar:5.3.12]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800) ~[spring-beans-5.3.12.jar:5.3.12]
+	... 21 common frames omitted
+
+2021-10-28 20:43:02.299  INFO 27968 --- [restartedMain] c.edutecno.M5SistemaNoticiasApplication  : Starting M5SistemaNoticiasApplication using Java 16.0.2 on LAPTOP-D6Q9IDB6 with PID 27968 (C:\Users\adria\Edutecno Capacitacion\0004 - Full Stack Java - Vespertino - eclipse-workspace cloud -\M5-Sistema-noticias\target\classes started by adrian in C:\Users\adria\Edutecno Capacitacion\0004 - Full Stack Java - Vespertino - eclipse-workspace cloud -\M5-Sistema-noticias)
+2021-10-28 20:43:02.299  INFO 27968 --- [restartedMain] c.edutecno.M5SistemaNoticiasApplication  : No active profile set, falling back to default profiles: default
+2021-10-28 20:43:02.398  INFO 27968 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2021-10-28 20:43:02.399  INFO 27968 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-28 20:43:02.399  INFO 27968 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-10-28 20:43:02.413  INFO 27968 --- [restartedMain] o.a.c.c.C.[Tomcat-8].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2021-10-28 20:43:02.413  INFO 27968 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 112 ms
+2021-10-28 20:43:02.429 DEBUG 27968 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-10-28 20:43:02.430  WARN 27968 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'noticiasController' method 
+cl.edutecno.controller.NoticiasController#Main(Model)
+to {GET [/]}: There is already 'noticiasController' bean method
+cl.edutecno.controller.NoticiasController#Main() mapped.
+2021-10-28 20:43:02.431  INFO 27968 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2021-10-28 20:43:02.434  INFO 27968 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-10-28 20:43:02.437 ERROR 27968 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'noticiasController' method 
+cl.edutecno.controller.NoticiasController#Main(Model)
+to {GET [/]}: There is already 'noticiasController' bean method
+cl.edutecno.controller.NoticiasController#Main() mapped.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804) ~[spring-beans-5.3.12.jar:5.3.12]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620) ~[spring-beans-5.3.12.jar:5.3.12]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.12.jar:5.3.12]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.12.jar:5.3.12]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.12.jar:5.3.12]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.12.jar:5.3.12]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.12.jar:5.3.12]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944) ~[spring-beans-5.3.12.jar:5.3.12]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.12.jar:5.3.12]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.12.jar:5.3.12]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145) ~[spring-boot-2.5.6.jar:2.5.6]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-2.5.6.jar:2.5.6]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434) ~[spring-boot-2.5.6.jar:2.5.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:338) ~[spring-boot-2.5.6.jar:2.5.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343) ~[spring-boot-2.5.6.jar:2.5.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1332) ~[spring-boot-2.5.6.jar:2.5.6]
+	at cl.edutecno.M5SistemaNoticiasApplication.main(M5SistemaNoticiasApplication.java:10) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.5.6.jar:2.5.6]
+Caused by: java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'noticiasController' method 
+cl.edutecno.controller.NoticiasController#Main(Model)
+to {GET [/]}: There is already 'noticiasController' bean method
+cl.edutecno.controller.NoticiasController#Main() mapped.
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.validateMethodMapping(AbstractHandlerMethodMapping.java:669) ~[spring-webmvc-5.3.12.jar:5.3.12]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:635) ~[spring-webmvc-5.3.12.jar:5.3.12]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:332) ~[spring-webmvc-5.3.12.jar:5.3.12]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod(RequestMappingHandlerMapping.java:395) ~[spring-webmvc-5.3.12.jar:5.3.12]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod(RequestMappingHandlerMapping.java:76) ~[spring-webmvc-5.3.12.jar:5.3.12]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lambda$detectHandlerMethods$2(AbstractHandlerMethodMapping.java:299) ~[spring-webmvc-5.3.12.jar:5.3.12]
+	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:723) ~[na:na]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.detectHandlerMethods(AbstractHandlerMethodMapping.java:297) ~[spring-webmvc-5.3.12.jar:5.3.12]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.processCandidateBean(AbstractHandlerMethodMapping.java:266) ~[spring-webmvc-5.3.12.jar:5.3.12]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.initHandlerMethods(AbstractHandlerMethodMapping.java:225) ~[spring-webmvc-5.3.12.jar:5.3.12]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.afterPropertiesSet(AbstractHandlerMethodMapping.java:213) ~[spring-webmvc-5.3.12.jar:5.3.12]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.afterPropertiesSet(RequestMappingHandlerMapping.java:206) ~[spring-webmvc-5.3.12.jar:5.3.12]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863) ~[spring-beans-5.3.12.jar:5.3.12]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800) ~[spring-beans-5.3.12.jar:5.3.12]
+	... 21 common frames omitted
+
+2021-10-28 20:43:08.962  INFO 27968 --- [restartedMain] c.edutecno.M5SistemaNoticiasApplication  : Starting M5SistemaNoticiasApplication using Java 16.0.2 on LAPTOP-D6Q9IDB6 with PID 27968 (C:\Users\adria\Edutecno Capacitacion\0004 - Full Stack Java - Vespertino - eclipse-workspace cloud -\M5-Sistema-noticias\target\classes started by adrian in C:\Users\adria\Edutecno Capacitacion\0004 - Full Stack Java - Vespertino - eclipse-workspace cloud -\M5-Sistema-noticias)
+2021-10-28 20:43:08.963  INFO 27968 --- [restartedMain] c.edutecno.M5SistemaNoticiasApplication  : No active profile set, falling back to default profiles: default
+2021-10-28 20:43:09.071  INFO 27968 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2021-10-28 20:43:09.072  INFO 27968 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-28 20:43:09.072  INFO 27968 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-10-28 20:43:09.085  INFO 27968 --- [restartedMain] o.a.c.c.C.[Tomcat-9].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2021-10-28 20:43:09.085  INFO 27968 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 120 ms
+2021-10-28 20:43:09.100 DEBUG 27968 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-10-28 20:43:09.103 DEBUG 27968 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 3 mappings in 'requestMappingHandlerMapping'
+2021-10-28 20:43:09.105  INFO 27968 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-10-28 20:43:09.110 DEBUG 27968 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2021-10-28 20:43:09.112 DEBUG 27968 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-10-28 20:43:09.125  INFO 27968 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-10-28 20:43:09.145  INFO 27968 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2021-10-28 20:43:09.149  INFO 27968 --- [restartedMain] c.edutecno.M5SistemaNoticiasApplication  : Started M5SistemaNoticiasApplication in 0.205 seconds (JVM running for 6378.735)
+2021-10-28 20:43:09.150  INFO 27968 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-10-28 20:50:04.375  INFO 27968 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat-9].[localhost].[/]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-10-28 20:50:04.377  INFO 27968 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-10-28 20:50:04.378 DEBUG 27968 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2021-10-28 20:50:04.379 DEBUG 27968 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2021-10-28 20:50:04.379 DEBUG 27968 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2021-10-28 20:50:04.387 DEBUG 27968 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@19ad67ad
+2021-10-28 20:50:04.387 DEBUG 27968 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@176a8ae8
+2021-10-28 20:50:04.387 DEBUG 27968 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2021-10-28 20:50:04.387  INFO 27968 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2021-10-28 20:50:04.392 DEBUG 27968 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2021-10-28 20:50:04.394 DEBUG 27968 --- [http-nio-8081-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to cl.edutecno.controller.NoticiasController#Main(Model)
+2021-10-28 20:50:04.402  INFO 27968 --- [http-nio-8081-exec-1] c.e.controller.NoticiasController        : Se ha añadido correctamente una noticia
+2021-10-28 20:50:04.402  INFO 27968 --- [http-nio-8081-exec-1] c.e.controller.NoticiasController        : Se ha añadido correctamente una noticia
+2021-10-28 20:50:04.402  INFO 27968 --- [http-nio-8081-exec-1] c.e.controller.NoticiasController        : Se ha añadido correctamente una noticia
+2021-10-28 20:50:04.402  INFO 27968 --- [http-nio-8081-exec-1] c.e.controller.NoticiasController        : Se ha añadido correctamente una noticia
+2021-10-28 20:50:04.402  INFO 27968 --- [http-nio-8081-exec-1] c.e.controller.NoticiasController        : Se ha añadido correctamente una noticia
+2021-10-28 20:50:04.411 DEBUG 27968 --- [http-nio-8081-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+2021-10-28 20:50:04.438 DEBUG 27968 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-10-28 20:50:05.888 DEBUG 27968 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2021-10-28 20:50:05.888 DEBUG 27968 --- [http-nio-8081-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to cl.edutecno.controller.NoticiasController#Main(Model)
+2021-10-28 20:50:05.889  INFO 27968 --- [http-nio-8081-exec-2] c.e.controller.NoticiasController        : Se ha añadido correctamente una noticia
+2021-10-28 20:50:05.889  INFO 27968 --- [http-nio-8081-exec-2] c.e.controller.NoticiasController        : Se ha añadido correctamente una noticia
+2021-10-28 20:50:05.889  INFO 27968 --- [http-nio-8081-exec-2] c.e.controller.NoticiasController        : Se ha añadido correctamente una noticia
+2021-10-28 20:50:05.889  INFO 27968 --- [http-nio-8081-exec-2] c.e.controller.NoticiasController        : Se ha añadido correctamente una noticia
+2021-10-28 20:50:05.889  INFO 27968 --- [http-nio-8081-exec-2] c.e.controller.NoticiasController        : Se ha añadido correctamente una noticia
+2021-10-28 20:50:05.891 DEBUG 27968 --- [http-nio-8081-exec-2] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+2021-10-28 20:50:05.896 DEBUG 27968 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-10-28 20:50:06.955 DEBUG 27968 --- [http-nio-8081-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2021-10-28 20:50:06.956 DEBUG 27968 --- [http-nio-8081-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to cl.edutecno.controller.NoticiasController#Main(Model)
+2021-10-28 20:50:06.957  INFO 27968 --- [http-nio-8081-exec-3] c.e.controller.NoticiasController        : Se ha añadido correctamente una noticia
+2021-10-28 20:50:06.957  INFO 27968 --- [http-nio-8081-exec-3] c.e.controller.NoticiasController        : Se ha añadido correctamente una noticia
+2021-10-28 20:50:06.957  INFO 27968 --- [http-nio-8081-exec-3] c.e.controller.NoticiasController        : Se ha añadido correctamente una noticia
+2021-10-28 20:50:06.957  INFO 27968 --- [http-nio-8081-exec-3] c.e.controller.NoticiasController        : Se ha añadido correctamente una noticia
+2021-10-28 20:50:06.957  INFO 27968 --- [http-nio-8081-exec-3] c.e.controller.NoticiasController        : Se ha añadido correctamente una noticia
+2021-10-28 20:50:06.958 DEBUG 27968 --- [http-nio-8081-exec-3] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+2021-10-28 20:50:06.961 DEBUG 27968 --- [http-nio-8081-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-10-28 20:50:07.487 DEBUG 27968 --- [http-nio-8081-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2021-10-28 20:50:07.488 DEBUG 27968 --- [http-nio-8081-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to cl.edutecno.controller.NoticiasController#Main(Model)
+2021-10-28 20:50:07.488  INFO 27968 --- [http-nio-8081-exec-4] c.e.controller.NoticiasController        : Se ha añadido correctamente una noticia
+2021-10-28 20:50:07.488  INFO 27968 --- [http-nio-8081-exec-4] c.e.controller.NoticiasController        : Se ha añadido correctamente una noticia
+2021-10-28 20:50:07.488  INFO 27968 --- [http-nio-8081-exec-4] c.e.controller.NoticiasController        : Se ha añadido correctamente una noticia
+2021-10-28 20:50:07.488  INFO 27968 --- [http-nio-8081-exec-4] c.e.controller.NoticiasController        : Se ha añadido correctamente una noticia
+2021-10-28 20:50:07.488  INFO 27968 --- [http-nio-8081-exec-4] c.e.controller.NoticiasController        : Se ha añadido correctamente una noticia
+2021-10-28 20:50:07.489 DEBUG 27968 --- [http-nio-8081-exec-4] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+2021-10-28 20:50:07.492 DEBUG 27968 --- [http-nio-8081-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-10-28 20:50:07.854 DEBUG 27968 --- [http-nio-8081-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2021-10-28 20:50:07.854 DEBUG 27968 --- [http-nio-8081-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to cl.edutecno.controller.NoticiasController#Main(Model)
+2021-10-28 20:50:07.855  INFO 27968 --- [http-nio-8081-exec-5] c.e.controller.NoticiasController        : Se ha añadido correctamente una noticia
+2021-10-28 20:50:07.855  INFO 27968 --- [http-nio-8081-exec-5] c.e.controller.NoticiasController        : Se ha añadido correctamente una noticia
+2021-10-28 20:50:07.855  INFO 27968 --- [http-nio-8081-exec-5] c.e.controller.NoticiasController        : Se ha añadido correctamente una noticia
+2021-10-28 20:50:07.855  INFO 27968 --- [http-nio-8081-exec-5] c.e.controller.NoticiasController        : Se ha añadido correctamente una noticia
+2021-10-28 20:50:07.855  INFO 27968 --- [http-nio-8081-exec-5] c.e.controller.NoticiasController        : Se ha añadido correctamente una noticia
+2021-10-28 20:50:07.856 DEBUG 27968 --- [http-nio-8081-exec-5] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+2021-10-28 20:50:07.860 DEBUG 27968 --- [http-nio-8081-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-10-28 20:50:08.042 DEBUG 27968 --- [http-nio-8081-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2021-10-28 20:50:08.042 DEBUG 27968 --- [http-nio-8081-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to cl.edutecno.controller.NoticiasController#Main(Model)
+2021-10-28 20:50:08.042  INFO 27968 --- [http-nio-8081-exec-6] c.e.controller.NoticiasController        : Se ha añadido correctamente una noticia
+2021-10-28 20:50:08.042  INFO 27968 --- [http-nio-8081-exec-6] c.e.controller.NoticiasController        : Se ha añadido correctamente una noticia
+2021-10-28 20:50:08.042  INFO 27968 --- [http-nio-8081-exec-6] c.e.controller.NoticiasController        : Se ha añadido correctamente una noticia
+2021-10-28 20:50:08.042  INFO 27968 --- [http-nio-8081-exec-6] c.e.controller.NoticiasController        : Se ha añadido correctamente una noticia
+2021-10-28 20:50:08.042  INFO 27968 --- [http-nio-8081-exec-6] c.e.controller.NoticiasController        : Se ha añadido correctamente una noticia
+2021-10-28 20:50:08.043 DEBUG 27968 --- [http-nio-8081-exec-6] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+2021-10-28 20:50:08.046 DEBUG 27968 --- [http-nio-8081-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-10-28 20:50:08.210 DEBUG 27968 --- [http-nio-8081-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2021-10-28 20:50:08.211 DEBUG 27968 --- [http-nio-8081-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to cl.edutecno.controller.NoticiasController#Main(Model)
+2021-10-28 20:50:08.211  INFO 27968 --- [http-nio-8081-exec-7] c.e.controller.NoticiasController        : Se ha añadido correctamente una noticia
+2021-10-28 20:50:08.211  INFO 27968 --- [http-nio-8081-exec-7] c.e.controller.NoticiasController        : Se ha añadido correctamente una noticia
+2021-10-28 20:50:08.211  INFO 27968 --- [http-nio-8081-exec-7] c.e.controller.NoticiasController        : Se ha añadido correctamente una noticia
+2021-10-28 20:50:08.211  INFO 27968 --- [http-nio-8081-exec-7] c.e.controller.NoticiasController        : Se ha añadido correctamente una noticia
+2021-10-28 20:50:08.211  INFO 27968 --- [http-nio-8081-exec-7] c.e.controller.NoticiasController        : Se ha añadido correctamente una noticia
+2021-10-28 20:50:08.212 DEBUG 27968 --- [http-nio-8081-exec-7] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+2021-10-28 20:50:08.215 DEBUG 27968 --- [http-nio-8081-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-10-28 20:50:08.379 DEBUG 27968 --- [http-nio-8081-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2021-10-28 20:50:08.379 DEBUG 27968 --- [http-nio-8081-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to cl.edutecno.controller.NoticiasController#Main(Model)
+2021-10-28 20:50:08.379  INFO 27968 --- [http-nio-8081-exec-8] c.e.controller.NoticiasController        : Se ha añadido correctamente una noticia
+2021-10-28 20:50:08.380  INFO 27968 --- [http-nio-8081-exec-8] c.e.controller.NoticiasController        : Se ha añadido correctamente una noticia
+2021-10-28 20:50:08.380  INFO 27968 --- [http-nio-8081-exec-8] c.e.controller.NoticiasController        : Se ha añadido correctamente una noticia
+2021-10-28 20:50:08.380  INFO 27968 --- [http-nio-8081-exec-8] c.e.controller.NoticiasController        : Se ha añadido correctamente una noticia
+2021-10-28 20:50:08.380  INFO 27968 --- [http-nio-8081-exec-8] c.e.controller.NoticiasController        : Se ha añadido correctamente una noticia
+2021-10-28 20:50:08.381 DEBUG 27968 --- [http-nio-8081-exec-8] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+2021-10-28 20:50:08.384 DEBUG 27968 --- [http-nio-8081-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-10-28 20:50:08.532 DEBUG 27968 --- [http-nio-8081-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2021-10-28 20:50:08.532 DEBUG 27968 --- [http-nio-8081-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to cl.edutecno.controller.NoticiasController#Main(Model)
+2021-10-28 20:50:08.532  INFO 27968 --- [http-nio-8081-exec-9] c.e.controller.NoticiasController        : Se ha añadido correctamente una noticia
+2021-10-28 20:50:08.532  INFO 27968 --- [http-nio-8081-exec-9] c.e.controller.NoticiasController        : Se ha añadido correctamente una noticia
+2021-10-28 20:50:08.533  INFO 27968 --- [http-nio-8081-exec-9] c.e.controller.NoticiasController        : Se ha añadido correctamente una noticia
+2021-10-28 20:50:08.533  INFO 27968 --- [http-nio-8081-exec-9] c.e.controller.NoticiasController        : Se ha añadido correctamente una noticia
+2021-10-28 20:50:08.533  INFO 27968 --- [http-nio-8081-exec-9] c.e.controller.NoticiasController        : Se ha añadido correctamente una noticia
+2021-10-28 20:50:08.533 DEBUG 27968 --- [http-nio-8081-exec-9] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+2021-10-28 20:50:08.536 DEBUG 27968 --- [http-nio-8081-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-10-28 20:50:08.702 DEBUG 27968 --- [http-nio-8081-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2021-10-28 20:50:08.702 DEBUG 27968 --- [http-nio-8081-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to cl.edutecno.controller.NoticiasController#Main(Model)
+2021-10-28 20:50:08.703  INFO 27968 --- [http-nio-8081-exec-10] c.e.controller.NoticiasController        : Se ha añadido correctamente una noticia
+2021-10-28 20:50:08.703  INFO 27968 --- [http-nio-8081-exec-10] c.e.controller.NoticiasController        : Se ha añadido correctamente una noticia
+2021-10-28 20:50:08.703  INFO 27968 --- [http-nio-8081-exec-10] c.e.controller.NoticiasController        : Se ha añadido correctamente una noticia
+2021-10-28 20:50:08.703  INFO 27968 --- [http-nio-8081-exec-10] c.e.controller.NoticiasController        : Se ha añadido correctamente una noticia
+2021-10-28 20:50:08.703  INFO 27968 --- [http-nio-8081-exec-10] c.e.controller.NoticiasController        : Se ha añadido correctamente una noticia
+2021-10-28 20:50:08.704 DEBUG 27968 --- [http-nio-8081-exec-10] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+2021-10-28 20:50:08.706 DEBUG 27968 --- [http-nio-8081-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-10-28 20:50:08.843 DEBUG 27968 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2021-10-28 20:50:08.843 DEBUG 27968 --- [http-nio-8081-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to cl.edutecno.controller.NoticiasController#Main(Model)
+2021-10-28 20:50:08.844  INFO 27968 --- [http-nio-8081-exec-1] c.e.controller.NoticiasController        : Se ha añadido correctamente una noticia
+2021-10-28 20:50:08.844  INFO 27968 --- [http-nio-8081-exec-1] c.e.controller.NoticiasController        : Se ha añadido correctamente una noticia
+2021-10-28 20:50:08.844  INFO 27968 --- [http-nio-8081-exec-1] c.e.controller.NoticiasController        : Se ha añadido correctamente una noticia
+2021-10-28 20:50:08.844  INFO 27968 --- [http-nio-8081-exec-1] c.e.controller.NoticiasController        : Se ha añadido correctamente una noticia
+2021-10-28 20:50:08.844  INFO 27968 --- [http-nio-8081-exec-1] c.e.controller.NoticiasController        : Se ha añadido correctamente una noticia
+2021-10-28 20:50:08.844 DEBUG 27968 --- [http-nio-8081-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+2021-10-28 20:50:08.849 DEBUG 27968 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-10-28 20:50:09.017 DEBUG 27968 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2021-10-28 20:50:09.017 DEBUG 27968 --- [http-nio-8081-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to cl.edutecno.controller.NoticiasController#Main(Model)
+2021-10-28 20:50:09.018  INFO 27968 --- [http-nio-8081-exec-2] c.e.controller.NoticiasController        : Se ha añadido correctamente una noticia
+2021-10-28 20:50:09.018  INFO 27968 --- [http-nio-8081-exec-2] c.e.controller.NoticiasController        : Se ha añadido correctamente una noticia
+2021-10-28 20:50:09.018  INFO 27968 --- [http-nio-8081-exec-2] c.e.controller.NoticiasController        : Se ha añadido correctamente una noticia
+2021-10-28 20:50:09.018  INFO 27968 --- [http-nio-8081-exec-2] c.e.controller.NoticiasController        : Se ha añadido correctamente una noticia
+2021-10-28 20:50:09.018  INFO 27968 --- [http-nio-8081-exec-2] c.e.controller.NoticiasController        : Se ha añadido correctamente una noticia
+2021-10-28 20:50:09.019 DEBUG 27968 --- [http-nio-8081-exec-2] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+2021-10-28 20:50:09.022 DEBUG 27968 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-10-28 20:50:09.173 DEBUG 27968 --- [http-nio-8081-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2021-10-28 20:50:09.173 DEBUG 27968 --- [http-nio-8081-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to cl.edutecno.controller.NoticiasController#Main(Model)
+2021-10-28 20:50:09.174  INFO 27968 --- [http-nio-8081-exec-3] c.e.controller.NoticiasController        : Se ha añadido correctamente una noticia
+2021-10-28 20:50:09.174  INFO 27968 --- [http-nio-8081-exec-3] c.e.controller.NoticiasController        : Se ha añadido correctamente una noticia
+2021-10-28 20:50:09.174  INFO 27968 --- [http-nio-8081-exec-3] c.e.controller.NoticiasController        : Se ha añadido correctamente una noticia
+2021-10-28 20:50:09.174  INFO 27968 --- [http-nio-8081-exec-3] c.e.controller.NoticiasController        : Se ha añadido correctamente una noticia
+2021-10-28 20:50:09.174  INFO 27968 --- [http-nio-8081-exec-3] c.e.controller.NoticiasController        : Se ha añadido correctamente una noticia
+2021-10-28 20:50:09.175 DEBUG 27968 --- [http-nio-8081-exec-3] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+2021-10-28 20:50:09.177 DEBUG 27968 --- [http-nio-8081-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-10-28 20:50:15.976 DEBUG 27968 --- [http-nio-8081-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2021-10-28 20:50:15.976 DEBUG 27968 --- [http-nio-8081-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to cl.edutecno.controller.NoticiasController#Main(Model)
+2021-10-28 20:50:15.977  INFO 27968 --- [http-nio-8081-exec-4] c.e.controller.NoticiasController        : Se ha añadido correctamente una noticia
+2021-10-28 20:50:15.977  INFO 27968 --- [http-nio-8081-exec-4] c.e.controller.NoticiasController        : Se ha añadido correctamente una noticia
+2021-10-28 20:50:15.977  INFO 27968 --- [http-nio-8081-exec-4] c.e.controller.NoticiasController        : Se ha añadido correctamente una noticia
+2021-10-28 20:50:15.977  INFO 27968 --- [http-nio-8081-exec-4] c.e.controller.NoticiasController        : Se ha añadido correctamente una noticia
+2021-10-28 20:50:15.977  INFO 27968 --- [http-nio-8081-exec-4] c.e.controller.NoticiasController        : Se ha añadido correctamente una noticia
+2021-10-28 20:50:15.977 DEBUG 27968 --- [http-nio-8081-exec-4] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+2021-10-28 20:50:15.980 DEBUG 27968 --- [http-nio-8081-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-10-28 20:54:35.282  INFO 27968 --- [RMI TCP Connection(159)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-10-28 20:54:37.992  INFO 23264 --- [restartedMain] c.edutecno.M5SistemaNoticiasApplication  : Starting M5SistemaNoticiasApplication using Java 16.0.2 on LAPTOP-D6Q9IDB6 with PID 23264 (C:\Users\adria\Edutecno Capacitacion\0004 - Full Stack Java - Vespertino - eclipse-workspace cloud -\M5-Sistema-noticias\target\classes started by adrian in C:\Users\adria\Edutecno Capacitacion\0004 - Full Stack Java - Vespertino - eclipse-workspace cloud -\M5-Sistema-noticias)
+2021-10-28 20:54:37.994  INFO 23264 --- [restartedMain] c.edutecno.M5SistemaNoticiasApplication  : No active profile set, falling back to default profiles: default
+2021-10-28 20:54:38.023  INFO 23264 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-10-28 20:54:38.023  INFO 23264 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-10-28 20:54:38.653  INFO 23264 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2021-10-28 20:54:38.662  INFO 23264 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-28 20:54:38.662  INFO 23264 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-10-28 20:54:38.718  INFO 23264 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-28 20:54:38.719  INFO 23264 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 695 ms
+2021-10-28 20:54:38.862 DEBUG 23264 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-10-28 20:54:38.912 DEBUG 23264 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 3 mappings in 'requestMappingHandlerMapping'
+2021-10-28 20:54:38.916  INFO 23264 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-10-28 20:54:38.937 DEBUG 23264 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2021-10-28 20:54:38.944 DEBUG 23264 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-10-28 20:54:39.009  INFO 23264 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-10-28 20:54:39.054  INFO 23264 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2021-10-28 20:54:39.063  INFO 23264 --- [restartedMain] c.edutecno.M5SistemaNoticiasApplication  : Started M5SistemaNoticiasApplication in 1.348 seconds (JVM running for 1.898)
+2021-10-28 20:54:51.483  INFO 23264 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-10-28 20:54:51.483  INFO 23264 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-10-28 20:54:51.483 DEBUG 23264 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2021-10-28 20:54:51.484 DEBUG 23264 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2021-10-28 20:54:51.484 DEBUG 23264 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2021-10-28 20:54:51.484 DEBUG 23264 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@39b42753
+2021-10-28 20:54:51.484 DEBUG 23264 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@1296dc75
+2021-10-28 20:54:51.484 DEBUG 23264 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2021-10-28 20:54:51.484  INFO 23264 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-10-28 20:54:51.492 DEBUG 23264 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2021-10-28 20:54:51.494 DEBUG 23264 --- [http-nio-8081-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to cl.edutecno.controller.NoticiasController#Main(Model)
+2021-10-28 20:54:51.502  INFO 23264 --- [http-nio-8081-exec-1] c.e.controller.NoticiasController        : Se ha añadido correctamente una noticia
+2021-10-28 20:54:51.502  INFO 23264 --- [http-nio-8081-exec-1] c.e.controller.NoticiasController        : Se ha añadido correctamente una noticia
+2021-10-28 20:54:51.503  INFO 23264 --- [http-nio-8081-exec-1] c.e.controller.NoticiasController        : Se ha añadido correctamente una noticia
+2021-10-28 20:54:51.503  INFO 23264 --- [http-nio-8081-exec-1] c.e.controller.NoticiasController        : Se ha añadido correctamente una noticia
+2021-10-28 20:54:51.503  INFO 23264 --- [http-nio-8081-exec-1] c.e.controller.NoticiasController        : Se ha añadido correctamente una noticia
+2021-10-28 20:54:51.510 DEBUG 23264 --- [http-nio-8081-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Selected '*/*' given [image/gif, image/jpeg, image/pjpeg, application/x-ms-application, application/xaml+xml, application/x-ms-xbap, application/x-mfe-ipt, */*]
+2021-10-28 20:54:51.697 DEBUG 23264 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-10-28 20:55:00.252 DEBUG 23264 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2021-10-28 20:55:00.253 DEBUG 23264 --- [http-nio-8081-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to cl.edutecno.controller.NoticiasController#Main(Model)
+2021-10-28 20:55:00.254  INFO 23264 --- [http-nio-8081-exec-2] c.e.controller.NoticiasController        : Se ha añadido correctamente una noticia
+2021-10-28 20:55:00.254  INFO 23264 --- [http-nio-8081-exec-2] c.e.controller.NoticiasController        : Se ha añadido correctamente una noticia
+2021-10-28 20:55:00.254  INFO 23264 --- [http-nio-8081-exec-2] c.e.controller.NoticiasController        : Se ha añadido correctamente una noticia
+2021-10-28 20:55:00.254  INFO 23264 --- [http-nio-8081-exec-2] c.e.controller.NoticiasController        : Se ha añadido correctamente una noticia
+2021-10-28 20:55:00.254  INFO 23264 --- [http-nio-8081-exec-2] c.e.controller.NoticiasController        : Se ha añadido correctamente una noticia
+2021-10-28 20:55:00.256 DEBUG 23264 --- [http-nio-8081-exec-2] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+2021-10-28 20:55:00.260 DEBUG 23264 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
